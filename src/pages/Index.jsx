@@ -26,7 +26,7 @@ const Index = () => {
   return (
     <Container maxW="container.xl" py={10}>
       <Heading as="h1" mb={6} size="xl" textAlign="center">
-        Welcome to ParkEasy
+        Reserve Your Parking Spot
       </Heading>
       <SimpleGrid columns={{ sm: 2, md: 4 }} spacing={5}>
         {parkingSpots.map((spot) => (
